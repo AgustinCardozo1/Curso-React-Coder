@@ -1,11 +1,16 @@
 import { Navbar } from "./components/common/navbar/NavbarComponents";
 import ItemListContainer from "./components/layout/ItemListContainer";
+import "./styles.css";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <ItemListContainer data="Hellooo!!!" />
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="item-list-container">
+        <ItemListContainer props="Bienvenido a e-commerce" />
+      </div>
     </>
   );
 }

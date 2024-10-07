@@ -1,5 +1,5 @@
-const ItemListContainer = ({ data }) => {
-  return <h1>{data}</h1>;
+const ItemListContainer = ({ props }) => {
+  return <h3>{props}</h3>;
 };
 
 export default ItemListContainer;
